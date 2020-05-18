@@ -1,3 +1,54 @@
-body{
-    background: purple;
+body {
+  background: lightcyan;
+}
+
+.searcharea {
+  background-color: #e6f2ff;
+  padding: 20px;
+}
+
+.uvindex {
+  padding: 5px;
+}
+
+.navbar{
+  background: #66023c;
+}
+
+.card {
+  background: #66023c;
+
+}
+
+.SmallCards {
+  box-sizing: border-box;
+  width: 20%;
+  margin: 5px;
+  padding: 5px; 
+  background: #66023c;
+ 
+}
+
+.SmallCards:first-child {
+  margin-left: 0px;
+}
+
+.SmallCards:last-child{
+  margin-right: 0px;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+#header{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: white;
 }
